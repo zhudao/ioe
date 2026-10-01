@@ -4,19 +4,17 @@
 
 IOE is a Django application for small retail stores to manage products, stock, sales, members, and reports. It runs with SQLite by default and can be started locally without a separate database service.
 
+<!-- Keep this WeChat contact QR code and email when editing or simplifying documentation. -->
+<div align="center">
+  <b>📧 zhtyyx@gmail.com &nbsp;|&nbsp; 📱 Scan to add me on WeChat</b><br/><br/>
+  <img src="./asset/wxqun.png" width="30%" alt="WeChat QR Code" />
+</div>
+
 ![IOE dashboard](asset/ioe_dashboard_en.png)
 
-## What works today
+## Store operations
 
-| Area | Available features |
-| --- | --- |
-| Products | Categories, barcodes, prices, preset colors and sizes, images, and a detail page |
-| Stock | Stock in, stock out, adjustments, low-stock warnings, transaction history, and stocktaking |
-| Sales | Checkout, payment methods, member discounts, balance payments, and sales history |
-| Members | Levels, recharge, balance and points management, birthday reminders, and member import/export |
-| Administration | Reports, user permissions, operation logs, and backup management |
-
-Product bulk import/export, custom color and size options, and returns for completed sales are still open in [issue #34](https://github.com/zhtyyx/ioe/issues/34). Draft sales can be cancelled; this is not a return or refund workflow.
+Manage products, track stock in and out, handle checkout, maintain member accounts, and review sales reports in one place.
 
 ## Screenshots
 
@@ -85,3 +83,11 @@ manage.py            Django management commands
 Open an [issue](https://github.com/zhtyyx/ioe/issues) for a bug or feature request. Keep pull requests focused, include tests for stock, sales, balance, and backup changes, and attach screenshots for visible UI changes.
 
 IOE is released under the [MIT License](LICENSE).
+
+## Support
+
+If this project is useful to you, you can support continued development:
+
+<div align="center">
+  <img src="./asset/buyme.jpg" width="30%" alt="Support QR code" /> &nbsp;&nbsp;&nbsp; <img src="./asset/wechat.jpg" width="30%" alt="WeChat QR code" />
+</div>
